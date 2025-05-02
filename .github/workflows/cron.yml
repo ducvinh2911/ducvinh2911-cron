@@ -10,4 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Gọi URL
-        run: curl -sL https://white-smoke-d789.quynhnguyen291190.workers.dev
+        run: run: | 
+          curl 'http://ducvinh.fwh.is/111dailymotion/postFET/dowfileTourBana.php' \
+          -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+          -H 'Accept-Language: en-US,en;q=0.9,vi;q=0.8' \
+          -H 'Cache-Control: no-cache' \
+          -H 'Connection: keep-alive' \
+          -b 'PHPSESSID=dca9f754e0b213a331e640239988083a; __test=ce139f67ea1ed88fe39a4c9383ffb731' \
+          -H 'Pragma: no-cache' \
+          -H 'Upgrade-Insecure-Requests: 1' \
+          -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' \
+          --insecure
