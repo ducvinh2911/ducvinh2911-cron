@@ -2,7 +2,7 @@ name: Call My Cron URL
 
 on:
   schedule:
-    - cron: '*/20 * * * *'  # Chạy mỗi 10 phút (theo UTC)
+    - cron: '*/2 * * * *'  # Chạy mỗi 2 phút (theo UTC)
   workflow_dispatch:         # Cho phép chạy tay
 
 jobs:
