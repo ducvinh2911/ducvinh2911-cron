@@ -1,0 +1,13 @@
+name: Call My Cron URL
+
+on:
+  schedule:
+    - cron: '*/2 * * * *'  # Chạy mỗi 10 phút (theo UTC)
+  workflow_dispatch:         # Cho phép chạy tay
+
+jobs:
+  call-url:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gọi URL
+        run: curl -s http://ducvinh.fwh.is/111dailymotion/postFET/dowfileTourBana.php
