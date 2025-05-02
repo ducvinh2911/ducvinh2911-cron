@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Gọi URL
-        run: curl -L -v -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" -s http://ducvinh.fwh.is/111dailymotion/postFET/dowfileTourBana.php
+        run: curl -L -v -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" -b "cookie_name=cookie_value" -s http://ducvinh.fwh.is/111dailymotion/postFET/dowfileTourBana.php
