@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Gọi URL
-        run: curl -L -v -s http://ducvinh.fwh.is/111dailymotion/postFET/dowfileTourBana.php
+        run: curl -L -v -A "Mozilla/5.0" -s http://ducvinh.fwh.is/111dailymotion/postFET/dowfileTourBana.php
