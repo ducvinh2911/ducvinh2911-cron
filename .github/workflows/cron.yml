@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Gọi URL
-        run: curl -L -c cookie.txt -b cookie.txt -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" http://ducvinh.fwh.is/111dailymotion/postFET/dowfileTourBana.php
+        run: curl -sL https://white-smoke-d789.quynhnguyen291190.workers.dev
