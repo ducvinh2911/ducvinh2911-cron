@@ -1,9 +1,9 @@
 name: Call My Cron URL
 
 on:
-  schedule:
-    - cron: '*/2 * * * *'  # Chạy mỗi 2 phút (theo UTC)
-  workflow_dispatch:         # Cho phép chạy tay
+  # schedule:
+  #  - cron: '*/2 * * * *'  # Chạy mỗi 2 phút (theo UTC)
+  # workflow_dispatch:         # Cho phép chạy tay
 
 jobs:
   call-url:
